@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous" />
+
+    <title>UAS Form Pembelian Barang 2</title>
+  </head>
+  <body>
+    <nav class="navbar-light bg-warning sticky-top">
+      <div class="container-fluid" align="center">
+        <a class="navbar-brand" href="Form Jual Barang Elektronik.html"><h3>Form Penjualan Barang Elektronik</h3></a>
+      </div>
+    </nav>
+    <div class="p-3 mb-2 bg-primary text-light" .bg-info align="center">
+      <hr />
+      <table>
+        <tr>
+          <td><label>Nama Barang :</label></td>
+          <td>
+            <input type="text" id="Nama" />
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Harga :</label></td>
+          <td><input type="text" id="harga" /><br /></td>
+        </tr>
+        <tr>
+          <td><label>Jumlah :</label></td>
+          <td><textarea id="jumlah"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Aksesoris :</label></td>
+          <td>
+            <div class="form-check"><input type="checkbox" name="r" id="acc1" value="1" /><label for="acc1" class="form-check-label"> USB</label></div>
+            <div class="form-check"><input type="checkbox" name="r" id="acc2" value="2" /><label for="acc2" class="form-check-label"> Memory</label></div>
+            <div class="form-check"><input type="checkbox" name="r" id="acc3" value="3" /><label for="acc3" class="form-check-label"> Speaker</label></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Total :</label></td>
+          <td><textarea id="total"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Pajak 10% :</label></td>
+          <td><textarea id="pajak"></textarea><br /></td>
+        </tr>
+        <tr>
+          <td><label>Bayar :</label></td>
+          <td><textarea id="bayar"></textarea><br /></td>
+        </tr>
+      </table>
+      <hr />
+      <br />
+
+      <button onclick="hasil()">Proses</button>
+      <button onclick="hapus()">Reset</button>
+
+      <script type="text/javascript" src="Jual Barang Elektronik.js"></script>
+      <hr />
+      <h5>Made by @Jonawawiwawi</h5>
+    </div>
+  </body>
+</html>
